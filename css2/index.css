@@ -82,6 +82,10 @@ nav .nav_bar a:hover{
     background-size: cover;
     
 }
+.home .content{
+    flex-basis: 67%;
+
+}
 .home .content h1{
     font-size: 3.3rem;
     font-weight: bold;
@@ -92,9 +96,28 @@ nav .nav_bar a:hover{
 .home .content p{
     font-size: 1.8rem;
     font-weight: 500;
-    color: #777;
-   
+    color: #333;
+    text-align: center;
 
+}
+.home .content .btn {
+    margin-top: 1.2rem;
+    text-align: center;
+}
+.home .content .btn button{
+    display: inline-block;
+    border: none;
+    outline: none;
+    border-radius: .4rem;
+    width: 15rem;
+    height: 3rem;
+   background-color: #0e0d0d;
+   font-size: 1.5rem;
+   color:#fff;
+}
+.home .content .btn button:hover{
+    background-color: var(--pink);
+    transform: scale(1.1);
 }
 @media(max-width:991px)
 {
@@ -146,6 +169,7 @@ nav .nav_bar a:hover{
     .header{
         padding: 1rem 5%;
     }
+    
 }
 @media(max-width:450px){
     html{
@@ -154,4 +178,5 @@ nav .nav_bar a:hover{
     .header .icons i{
         padding: 0 .6rem;
     }
+    
 }
