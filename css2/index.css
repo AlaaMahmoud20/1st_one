@@ -34,6 +34,7 @@ html{
     z-index: 100;
     box-shadow: 0 .5rem 1rem rgb(0,0,0,.1) ;
     position: relative;
+    background-color: rgb(0, 0, 0,.1);
 
 }
 .header .logo{
@@ -69,6 +70,31 @@ nav .nav_bar a:hover{
 .header .icons i:hover{
     color: var(--pink);
     transform: scale(1.4);
+}
+.home{
+    padding: 2rem 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to top, rgb(0,0,0,.4)50%,rgb(0,0,0,.4)100%), url(..//images/sahara2.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.home .content h1{
+    font-size: 3.3rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2rem;
+
+}
+.home .content p{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #777;
+   
+
 }
 @media(max-width:991px)
 {
