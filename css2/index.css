@@ -27,6 +27,8 @@ html{
      display: none;
 }
  .header{
+    position: fixed;
+    top: 0;left: 0;right: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,7 +78,7 @@ nav .nav_bar a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: calc(100vh - 73.6px);
     background-image: linear-gradient(to top, rgb(0,0,0,.4)50%,rgb(0,0,0,.4)100%), url(..//images/sahara2.jpg);
     background-position: center;
     background-size: cover;
@@ -177,6 +179,9 @@ nav .nav_bar a:hover{
     }
     .header .icons i{
         padding: 0 .6rem;
+    }
+    .header .logo{
+        font-size: 1.9rem;
     }
     
 }
